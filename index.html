@@ -3,12 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex">
     <title>Live HTML CLASS</title>
     <link rel="stylesheet" href="index.css" />
   </head>
 
   <body>
-    <h1>Our First Table!</h1>
+    <a href="textPage.html">Text Page</a>
+    <!-- <h1>Our First Table!</h1>  -->
+    <nav>
+       <ul class="navbar">
+          <a href="textPage.html"> <li>Home</li></a>
+          <a href="testPag2.html"> <li>About Us</li></a>
+          <a href="https://darularkamacademy.com/testSlug/"> <li>Contact</li></a>
+       </ul>
+    </nav>
+    
     <div class="table-wrapper" >
        
       <table>
@@ -59,19 +69,15 @@
           </tr>
         </tbody>
       </table>
-
-      <div>
-         Hello Bangladesh
-        
-      </div>
     </div>
-
-    <!-- <input type="text" value="Hello Input1">
-    <input type="text" value="Hello Input2"> -->
-
-    <img src="Screenshot 2023-08-03 173819.png" alt="">
-    <img src="Enjoying my Journey to be a better human being and be someone who adds massvie value. (1).png" alt="" srcset="">
-
+    <!-- See The difference between nth-child() and nth-of-type() -->
+    <ul class="test-nth-child" style="margin-top: 20px">
+      <li>Item A</li>
+      <div>Item B (not a valid list item)</div>
+      <li>Item C</li>
+      <li>Item D</li>
+      <span>Item E (not a valid list item)</span>
+    </ul>
 
   </body>
 </html>
